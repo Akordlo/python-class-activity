@@ -1,0 +1,7 @@
+#Create a list of student grades. Ask the user to enter 5 grades, then calculate and print the average.
+grades = []
+for i in range(5):
+  g = float(input("Enter grade: ")) 
+  grades.append(g)
+avg = sum(grades) / len(grades)
+print(f"Average grade: {avg:.2f}")
